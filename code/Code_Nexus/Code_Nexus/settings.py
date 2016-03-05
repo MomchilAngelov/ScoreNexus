@@ -30,7 +30,6 @@ ALLOWED_HOSTS = []
 
 
 AUTHENTICATION_BACKENDS = [
-    'django_facebook.auth_backends.FacebookBackend',
     'django.contrib.auth.backends.ModelBackend',
 ]
 
@@ -38,7 +37,6 @@ AUTHENTICATION_BACKENDS = [
 
 INSTALLED_APPS = [
     'facebook_upload',
-    'django_facebook',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -69,7 +67,6 @@ TEMPLATES = [
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
-                'django_facebook.context_processors.facebook',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
