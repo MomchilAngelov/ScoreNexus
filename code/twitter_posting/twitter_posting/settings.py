@@ -29,8 +29,10 @@ ALLOWED_HOSTS = []
 
 TWITTER_USERNAME = 'momchil1997'
 TWITTER_PASSWORD = 'asdwqe123'
-
 # Application definition
+
+TWITTER_TOKEN = "vzbqdzbtpCKoa5dbHw1JGwv2i"
+TWITTER_SECRET = "Uc3Fi50PPb7f2j2JWO90VqQF5pocfuBiPzppl5E4Y5AaqLteNQ"
 
 SITE_ID = 1
 
